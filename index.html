@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Temp Converter</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <h1>Temperature converter</h1>
+      <form id="form">
+        <div class="top-form">
+          <select>
+            <option value="C">Celsius</option>
+            <option value="F">Fahrenheit</option>
+          </select>
+          <input type="number" step="0.0000000000000001">
+        </div>
+        <div class="bottom-form">
+          <input type="submit" value="Convert temperature">
+        </div>
+      </form>
+      <form id="form-result">
+        <p>°C</p>
+        <input type="number" id="result-input">
+        <img src="assets/loading.gif">
+      </form>
+      
+    </div>
+  </div>
+  <script src="JS/index.js"></script>
+</body>
+
+</html>
